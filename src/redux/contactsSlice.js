@@ -24,7 +24,7 @@ const slice = createSlice({
       })
       .addCase(deleteContact.pending, (state) => {
         state.error = false;
-        state.loading = true;
+        // state.loading = true;
       })
       .addCase(deleteContact.fulfilled, (state, action) => {
         state.loading = false;
