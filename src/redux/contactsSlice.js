@@ -38,7 +38,7 @@ const slice = createSlice({
       })
       .addCase(addContact.pending, (state) => {
         state.error = false;
-        state.loading = true;
+        // state.loading = true;
       })
       .addCase(addContact.fulfilled, (state, action) => {
         state.loading = false;
